@@ -16,3 +16,23 @@ Git tracker Status.
 11. git log  = shows the commit we are going to do.
 12. git push origin main = will push all the files to git now
 
+Tyring full tailwind configuration 
+npx tailwindcss init --full  = tailwind.config.js
+
+mandatory add this line 
+
+  content: [
+    "./src/**/*.html",
+    "./src/**/*.js",
+    "./public/**/*.html",
+    "./public/**/*.js",
+    "./node_modules/**/*.js",
+  ],
+
+  make sure you add this output.css generated css file to your index.html file 
+  like you are adding style.css file to every html file.
+  <link rel="stylesheet" href="../dist/output.css" />
+
+  Once Importing google fonts 
+  1. Add it in the desired HTML file. ex.. index.html
+  2. Add it in input.css
