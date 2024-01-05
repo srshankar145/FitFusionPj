@@ -1,0 +1,18 @@
+Git tracker Status.
+
+1. $ git clone https://github.com/srshankar145/FitFusionPj.git
+2. git init 
+3. $ git remote add origin https://github.com/srshankar145/FitFusionPj
+4. git status
+5. dont add README.md file in github online since its creating issue so once cloned done we will add 
+    in locally and upload all the files in same time.
+6. git pull origin main = first try this command if it doenst work or throw error then try below command
+   git pull origin main --allow-unrelated-histories
+7. to make online repo and offline both in synced we are pulling from online first and then uploading 
+    teh files from locally to online.
+8. git add . = to add all the files and folders.
+9. git status = now it shows all the files goes to upload
+10. git commit -m "Adding commit message"
+11. git log  = shows the commit we are going to do.
+12. git push origin main = will push all the files to git now
+
