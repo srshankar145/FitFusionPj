@@ -17,18 +17,16 @@
   <body>
     <nav>
       <div
-        class="sm\:container border-2 border-yellow-900 grid grid-cols-5 gap-8 items-center justify-evenly px-8 bg-[#0F0F0F]"
+        class="border-2 border-yellow-900 grid grid-cols-6 items-center py-2 px-4 gap-8 bg-[#0F0F0F]"
       >
         <!-- max-w-screen-xl-->
         <div
-          class="logo text-3xl font-Ubuntu font-extrabold border-2 border-white text-yellow-400"
+          class="logo text-2xl col-span-2 font-Ubuntu font-extrabold text-white border-red-300"
         >
           FitFusion
         </div>
-        <div>
-          <ul
-            class="flex items-center justify-between text-yellow-400 font-Ubuntu border-2 border-white"
-          >
+        <div class="col-span-3">
+          <ul class="grid grid-cols-4 text-white font-Ubuntu">
             <li><a href="#">About</a></li>
             <li><a href="#">Schedule</a></li>
             <li><a href="#">Store</a></li>
@@ -36,12 +34,77 @@
           </ul>
         </div>
         <div>
-          <a href="#" class="text-yellow-400 font-Ubuntu border-2 border-white"
-            ><button>JOIN US</button>
+          <a href="#" class="text-yellow-400 font-Ubuntu"
+            ><button
+              class="border-2 border-yellow-500 text-nowrap bg-yellow-400 text-[#0F0F0F] rounded-2xl px-6 flex items-center justify-evenly w-36 font-medium"
+            >
+              JOIN US
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-4 h-4"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                />
+              </svg>
+            </button>
           </a>
         </div>
       </div>
     </nav>
+    <section>
+      <div class="heroSection grid grid-cols-10 grid-rows-10">
+        <!-- radial-gradient(34.67% 21.63% at 27.18% 13.73%, #FFF9E5 0%, #FFF3CC 100%) -->
+        <div class="card1 col-span-6 border-2 border-amber-700">
+          <div class="pt-2 pl-2">
+            <h2 class="font-Ubuntu text-7xl text-[#0F0F0F] font-medium">
+              Where <span class="italic"> Fitness </span> transcends boundaries
+            </h2>
+          </div>
+          <div class="btmAligned flex items-baseline justify-between">
+            <div class="my-4 mx-3">
+              <button
+                class="border-2 border-yellow-500 text-nowrap bg-[#0F0F0F] text-[#fff] rounded-2xl px-6 py-2 flex items-center justify-evenly font-medium text-sm"
+              >
+                Start your Journey
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 pl-2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="mx-3">
+              <img src="../imgs/Star.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="card2 col-span-4">
+          <div>
+            <h2>EMPOWER YOUR BODY</h2>
+          </div>
+          <div>
+            <img src="../imgs/Boxing_Girl.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- <h1 class="font-bold text-2xl text-orange-400">FitFusion Project</h1> -->
   </body>
 </html>
