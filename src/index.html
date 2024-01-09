@@ -13,6 +13,15 @@
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!--Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
@@ -64,7 +73,7 @@
       <div class="heroSection grid grid-cols-10 gap-4">
         <!-- radial-gradient(34.67% 21.63% at 27.18% 13.73%, #FFF9E5 0%, #FFF3CC 100%) -->
         <div
-          class="card1 col-span-6 border-2 border-amber-700 rounded-2xl bg-[radial-gradient(34.67% 21.63% at 27.18% 13.73%, #FFF9E5 0%, #FFF3CC 100%)]"
+          class="card1 col-span-6 border-2 border-amber-700 rounded-2xl bg-[radial-gradient(34.67% 21.63% at 27.18% 13.73%, #FFF9E5 0%, #FFF3CC 100%)] bg-[#FAE7F3]"
         >
           <div class="pt-2 pl-2">
             <h2 class="font-Ubuntu text-7xl text-[#0F0F0F] font-medium">
@@ -120,7 +129,7 @@
         class="grid grid-cols-10 gap-4 border-lime-800 font-Ubuntu mt-4 mb-8"
       >
         <div
-          class="leftCard col-span-6 flex justify-between rounded-2xl border-2 border-pink-700 bg-[radial-gradient(55.06% 7.38% at 47.29% 4.52%, #ADDCEB 0%, #5CB8D6 100%)]"
+          class="leftCard col-span-6 flex justify-between rounded-2xl border-2 border-pink-700 bg-gradient-to-r from-fuchsia-500 to-cyan-500"
         >
           <div class="FirstWomen w-44">
             <img src="../imgs/Women_Img.png" alt="" />
@@ -158,8 +167,31 @@
           </div>
         </div>
         <div
-          class="rightCard col-span-4 rounded-2xl border-2 border-pink-700"
-        ></div>
+          class="rightCard col-span-4 rounded-2xl border-2 border-pink-700 bg-[ radial-gradient(35.43% 17.02% at 27.82% 10.31%, #CBC2FF 0%, #A797FF 100%)] bg-gradient-to-r from-blue-200 to-cyan-200"
+        >
+          <div class="Review_Rating flex">
+            <h2 class="pl-8 text-[75px] font-medium">5.0</h2>
+            <div class="pt-8 pl-6">
+              <div class="stars text-[#4B4087]">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-sm">Based on 729 reviews</h4>
+            </div>
+          </div>
+
+          <div class="Facilities text-[#0F0F0F] flex">
+            <h4>DIETITIAN</h4>
+            <h4>LOCKERS</h4>
+            <h4>PERSONAL TRAINING</h4>
+            <h4>CALISTHENICS</h4>
+            <h4>FREE PARKING</h4>
+            <h4>BOXING RING</h4>
+          </div>
+        </div>
       </div>
     </section>
   </body>
